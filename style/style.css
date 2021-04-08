@@ -4,6 +4,8 @@
 
 body {
   font-family: 'Mulish', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 button {
@@ -16,10 +18,17 @@ a {
   text-decoration: none;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 .header {
   padding: 20px 32px;
   display: flex;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 .menu-button {
@@ -90,6 +99,7 @@ a {
 
 .icon-search {
   fill: #000;
+  opacity: 1;
 }
 
 .icons {
@@ -121,3 +131,49 @@ a {
   height: 100%;
 }
 
+.sidebar {
+  padding-left: 32px;
+}
+
+.nav-menu {
+  margin-bottom: 60px;
+}
+
+.nav-item {
+  margin-bottom: 28px;
+}
+
+.nav-link {
+  color: #898989;
+  display: flex;
+  align-items: center;
+}
+
+.nav-link:hover {
+  color: #FF0000;
+}
+
+.nav-item .icon {
+  fill: #898989;
+}
+
+.nav-item:hover .icon{
+  fill: #FF0000;
+}
+
+.nav-text {
+  margin-left: 13px;
+}
+
+.nav-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  margin-bottom: 30px;
+}
+
+.nav-image {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+}
